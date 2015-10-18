@@ -7,12 +7,12 @@
 
 	<ul class="nav navbar-right top-nav">
 		<li class=""><a href="<c:url value = "/usermessage"/>"><i class="fa fa-envelope">&nbsp;Mail</i> </a>
-		
+
 			</li>
 				<li class=""><a id="additem" href="<c:url value = "/item/add"/>"><i class="glyphicon glyphicon-pencil">&nbsp;Add&nbsp;ULL</i> </a>
-		
+
 			</li>
-<!-- 
+<!--
 		<li class="dropdown"><a href="#" class="dropdown-toggle"
 			data-toggle="dropdown"><i class="fa fa-bell"></i> <b
 				class="caret"></b></a>
@@ -50,11 +50,13 @@
 	<li id="home"><a href="<c:url value = "/index"/>"><i
 				class="glyphicon glyphicon-home"></i>&nbsp;Home</a></li>
 				<li id="addull"><a id="additem2" href="<c:url value = "/item/add"/>"><i class="glyphicon glyphicon-pencil">Add ULL</i> </a>
-		
-			</li>	
-				
+
+			</li>
+
 		<li id="mylogs"><a href="<c:url value = "/member"/>"><i
 				class="glyphicon glyphicon-folder-open"></i>&nbsp;My Logs</a></li>
+		<li id="eBook"><a href="<c:url value = "/ebook"/>"><i
+				class="glyphicon glyphicon-book"></i>&nbsp;eBooks</a></li>
 		<li id="mygoal"><a href="<c:url value = "/analysis/home"/>"><i
 				class="glyphicon glyphicon-fire"></i>&nbsp;My goal</a></li>
 		<li id="myjplist"><a
@@ -70,18 +72,18 @@
 		<li id="recommendation"><a
 			href="<c:url value = "/analysis/recommendation"/>" id="vascorll"><i
 				class="glyphicon glyphicon-gift"></i>&nbsp;Recommendation</a></li>
-				
+
 				<li id="associate"><a
 			href="<c:url value = "/analysis/association"/>" id="association"><i
 				class="glyphicon glyphicon-gift"></i>&nbsp;Prediction</a></li>
-				
+
 		<li id="setting"><a href="<c:url value = "/profile"/>"><i class="fa fa-fw fa-user"></i> Profile&Admin</a></li>
 				<li><a href="<c:url value = "/logout"/>"><i class="fa fa-fw fa-power-off"></i> Log
 						Out</a></li>
-		
+
 		<!--<li id="refelection"><a href="blank-page.html"><i
 				class="fa fa-fw fa-file"></i> Reflection</a></li>-->
-				<!--  
+				<!--
 		<li id="mygoalset"><a
 			href="<c:url value = "/analysis/mysetting"/>"><i
 				class="fa fa-fw fa-table"></i> My goal setting</a></li>
@@ -526,29 +528,29 @@ div.parts table.mceToolbar {
 			var ass = document.getElementById('association');
 			ass.href = "<c:url value="/analysis/association"/>" + "?lat=" + place_lat
 					+ "&lng=" + place_log;
-			
-			
+
+
 			var vas = document.getElementById('vascorll');
 			vas.href = "<c:url value="/analysis/recommendation"/>" + "?lat=" + place_lat
 					+ "&lng=" + place_log;
-			
-	
+
+
 			var additem = document.getElementById('additem');
 			additem.href = "<c:url value="/item/add"/>" + "?lat=" + place_lat
 					+ "&lng=" + place_log;
-			
+
 			var additem2 = document.getElementById('additem2');
 			additem2.href = "<c:url value="/item/add"/>" + "?lat=" + place_lat
 					+ "&lng=" + place_log;
-			
-			
+
+
 
 		}
 		function errorCallback(error) {
 			alert("位置情報取得できない");
 		}
-		
-		
+
+
 		function myEnter(){
 		     myPassWord=prompt("パスワードを入力してください","");
 		     if ( myPassWord == "pass1" ){
@@ -561,9 +563,9 @@ div.parts table.mceToolbar {
 		         alert( "パスワードが違います!" );
 		     }
 		}
-		
+
 	});
-	
+
 
 </script>
 
