@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.1draft" version="1.1" xmlns:viz="http://www.gexf.net/1.1draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.1draft http://www.gexf.net/1.1draft/gexf.xsd">
+  <meta lastmodifieddate="2015-08-21">
+    <creator>Gephi 0.8</creator>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="mixed" timeformat="double" mode="dynamic">
+    <nodes>
+      <node id="1" label="Natto">
+        <attvalues></attvalues>
+        <viz:size value="60.0"></viz:size>
+        <viz:position x="-241.83339" y="-429.6161"></viz:position>
+        <viz:color r="255" g="255" b="51"></viz:color>
+      </node>
+      <node id="6" label="Supermerket">
+        <attvalues></attvalues>
+        <viz:size value="26.0"></viz:size>
+        <viz:position x="-931.2448" y="53.984295"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="7" label="Chinese Learner A">
+        <attvalues></attvalues>
+        <viz:size value="26.0"></viz:size>
+        <viz:position x="464.48126" y="-945.92596"></viz:position>
+        <viz:color r="51" g="255" b="51"></viz:color>
+      </node>
+      <node id="8" label="Chinese Learner B">
+        <attvalues></attvalues>
+        <viz:size value="26.0"></viz:size>
+        <viz:position x="-452.95895" y="-999.8143"></viz:position>
+        <viz:color r="51" g="255" b="51"></viz:color>
+      </node>
+      <node id="9" label="Japanese Learner A">
+        <attvalues></attvalues>
+        <viz:size value="26.0"></viz:size>
+        <viz:position x="50.17126" y="-772.5132"></viz:position>
+        <viz:color r="51" g="255" b="51"></viz:color>
+      </node>
+      <node id="10" label="Mongolian Learner A">
+        <attvalues></attvalues>
+        <viz:size value="26.0"></viz:size>
+        <viz:position x="-911.40857" y="-877.49457"></viz:position>
+        <viz:color r="51" g="255" b="51"></viz:color>
+      </node>
+      <node id="11" label="Japanese Learner B">
+        <attvalues></attvalues>
+        <viz:size value="26.0"></viz:size>
+        <viz:position x="43.663155" y="-1034.0422"></viz:position>
+        <viz:color r="51" g="255" b="51"></viz:color>
+      </node>
+      <node id="12" label="Convenience store">
+        <attvalues></attvalues>
+        <viz:size value="26.0"></viz:size>
+        <viz:position x="-855.86694" y="-304.63623"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="13" label="Restaurant">
+        <attvalues></attvalues>
+        <viz:size value="26.0"></viz:size>
+        <viz:position x="-213.87079" y="30.124348"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="14" label="Shopping mall">
+        <attvalues></attvalues>
+        <viz:size value="26.0"></viz:size>
+        <viz:position x="-523.7553" y="-65.11789"></viz:position>
+        <viz:color r="255" g="255" b="255"></viz:color>
+      </node>
+      <node id="16" label="Spring &amp;&amp; daytime">
+        <attvalues></attvalues>
+        <viz:size value="24.0"></viz:size>
+        <viz:position x="201.52213" y="-101.482956"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="17" label="Summer and morning">
+        <attvalues></attvalues>
+        <viz:size value="24.0"></viz:size>
+        <viz:position x="400.4496" y="-216.59215"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="18" label="Winter &amp;&amp; daytime">
+        <attvalues></attvalues>
+        <viz:size value="24.0"></viz:size>
+        <viz:position x="563.9054" y="-11.297624"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="19" label="Summer &amp;&amp; daytime">
+        <attvalues></attvalues>
+        <viz:size value="24.0"></viz:size>
+        <viz:position x="315.08298" y="76.914116"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="21" label="tofu">
+        <attvalues></attvalues>
+        <viz:size value="14.0"></viz:size>
+        <viz:position x="-477.2021" y="358.35168"></viz:position>
+        <viz:color r="255" g="255" b="0"></viz:color>
+      </node>
+      <node id="22" label="ramen">
+        <attvalues></attvalues>
+        <viz:size value="14.0"></viz:size>
+        <viz:position x="126.9052" y="529.6373"></viz:position>
+        <viz:color r="255" g="255" b="0"></viz:color>
+      </node>
+      <node id="23" label="coffee">
+        <attvalues></attvalues>
+        <viz:size value="14.0"></viz:size>
+        <viz:position x="-889.3152" y="384.25677"></viz:position>
+        <viz:color r="255" g="255" b="0"></viz:color>
+      </node>
+      <node id="24" label="milk">
+        <attvalues></attvalues>
+        <viz:size value="14.0"></viz:size>
+        <viz:position x="-391.0417" y="434.34888"></viz:position>
+        <viz:color r="255" g="255" b="0"></viz:color>
+      </node>
+      <node id="25" label="bag">
+        <attvalues></attvalues>
+        <viz:size value="14.0"></viz:size>
+        <viz:position x="-643.04065" y="479.76837"></viz:position>
+        <viz:color r="255" g="255" b="0"></viz:color>
+      </node>
+      <node id="26" label="make">
+        <attvalues></attvalues>
+        <viz:size value="14.0"></viz:size>
+        <viz:position x="-230.90369" y="458.66043"></viz:position>
+        <viz:color r="255" g="255" b="0"></viz:color>
+      </node>
+      <node id="27" label="go">
+        <attvalues></attvalues>
+        <viz:size value="14.0"></viz:size>
+        <viz:position x="-109.30731" y="393.72485"></viz:position>
+        <viz:color r="255" g="255" b="0"></viz:color>
+      </node>
+      <node id="28" label="bed">
+        <attvalues></attvalues>
+        <viz:size value="14.0"></viz:size>
+        <viz:position x="262.7836" y="354.24948"></viz:position>
+        <viz:color r="255" g="255" b="0"></viz:color>
+      </node>
+      <node id="29" label="tea">
+        <attvalues></attvalues>
+        <viz:size value="14.0"></viz:size>
+        <viz:position x="127.77345" y="449.31122"></viz:position>
+        <viz:color r="255" g="255" b="0"></viz:color>
+      </node>
+      <node id="30" label="paper">
+        <attvalues></attvalues>
+        <viz:size value="14.0"></viz:size>
+        <viz:position x="-1159.507" y="221.23825"></viz:position>
+        <viz:color r="255" g="255" b="0"></viz:color>
+      </node>
+      <node id="31" label="sushi">
+        <attvalues></attvalues>
+        <viz:size value="14.0"></viz:size>
+        <viz:position x="-122.644615" y="479.6792"></viz:position>
+        <viz:color r="255" g="255" b="0"></viz:color>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="1" target="6" type="directed" label="test" weight="3.0">
+        <viz:color r="255" g="255" b="255"></viz:color>
+        <attvalues>
+          <attvalue for="weight" value="3.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="1" target="7" type="directed" label="ed">
+        <viz:color r="255" g="255" b="255"></viz:color>
+        <attvalues>
+          <attvalue for="weight" value="1.0"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="1" target="8" type="directed" label="sf">
+        <viz:color r="255" g="255" b="255"></viz:color>
+        <attvalues>
+          <attvalue for="weight" value="1.0"></attvalue>
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
