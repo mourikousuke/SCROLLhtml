@@ -64,6 +64,9 @@
 	"use strict";
 	var userid; // ユーザID
 	var booktitle = "${selected}";
+	//ePubファイルのパス(unzipしたファイルのルートパスで、必ず/で終わる)
+	var ePubFilePath = "${baseURL}/eBook/unzipped/"+booktitle+"/";
+	//どこから移動したかを記録する
 	var oldChapter = 0, oldPage = 1;
 	// BookmarkedPages["chapter-pages"]=true(bookmarked) or false(not bookmarked)
 	// ex. BookmarkedPages[1-2]=true means "chapter 1 page 2 is bookmarked"
@@ -78,7 +81,7 @@
 	//var paramName = decodeURIComponent( element[ 0 ] );
 	var paramValue = decodeURIComponent(element[1]);
 	//メディアファイルが入るフォルダ名は任意に設定可能(OPSやOEBPSが多いが...)なので、その名前を特定する
-	/*var mediaFilesName = mediaLocationCheck();*/
+	var mediaFilesName = mediaLocationCheck(ePubFilePath);
 
 	//ウィンドウサイズ
 	var windowWidth = window.innerWidth;
@@ -87,8 +90,7 @@
 	//ビューモード(0:スライドビュー、1:テキストビュー)
 	var viewmode = 0;
 
-	//ePubファイルのパス(unzipしたファイルのルートパスで、必ず/で終わる)
-	var ePubFilePath = "${baseURL}/eBook/unzipped/"+booktitle+"/";
+
 
 	//描画時の幅と高さと開くファイルを指定
 	var Book = ePub(ePubFilePath, {
@@ -219,7 +221,8 @@
 
 			<!-- 中央メモエリア -->
 			<div id="memoarea">
-				<textarea id="memorandum" cols="5" rows="5" style="height: 80%; max-height: 300%; width:-webkit-calc(95% - 100px); max-width:-webkit-calc(95% - 100px); visibility: hidden;"></textarea>
+				<textarea id="memorandum" cols="5" rows="5" style="height: 80%; max-height: 300%; width:-webkit-calc(95% - 100px); max-width:-webkit-calc(95% - 100px); visibility: hidden;"
+				placeholder="Please feel free to write anything here and click 'SAVE' to confirm.&#13;&#10;This area can be extended by dragging the lower right."></textarea>
 				<input type="button" id="saveBtn" value="SAVE" style="visibility: hidden; width:60px;" />
 			</div>
 

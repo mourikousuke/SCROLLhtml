@@ -42,11 +42,11 @@
             width: 480px;
             height: 660px;
             margin: -30px auto;
-            /*
+
             -moz-box-shadow:      inset 10px 0 20px rgba(0,0,0,.1);
             -webkit-box-shadow:   inset 10px 0 20px rgba(0,0,0,.1);
             box-shadow:           inset 10px 0 20px rgba(0,0,0,.1);
-            */
+
           }
 
           #area iframe {
