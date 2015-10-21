@@ -1,3 +1,9 @@
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
+<%@taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%>
+<%@taglib prefix="shiro" uri="http://shiro.apache.org/tags"%>
+<%@taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
 <!DOCTYPE html>
 <html class="no-js">
 <head>
@@ -9,40 +15,50 @@
 	content="initial-scale=0.3, minimum-scale=0.3, maximum-scale=1.0, user-scalable=yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 
-<script src="../build/epub.min.js"></script>
-<script src="../build/libs/zip.min.js"></script>
-<script src="js/epubhelp.js"></script>
-<script src="js/libs/jquery-2.1.0.min.js"></script>
+<script src="${baseURL}/js/ebook/build/epub.min.js"></script>
+<script src="${baseURL}/js/ebook/build/libs/zip.min.js"></script>
+<script src="${baseURL}/js/ebook/epubhelp.js"></script>
+<script src="${baseURL}/js/ebook/jquery-2.1.0.min.js"></script>
 <!-- Render -->
-<script src="js/epub.min.js"></script>
+<script src="${baseURL}/js/ebook/epub.min.js"></script>
 
 <!-- Hooks -->
-<script src="js/hooks.min.js"></script>
+<script src="${baseURL}/js/ebook/hooks.min.js"></script>
 
 <!-- Reader -->
-<script src="js/reader.min.js"></script>
+<script src="${baseURL}/js/ebook/reader.min.js"></script>
 
 <!-- Plugins -->
-<script src="js/plugins/search.js"></script>
+<script src="${baseURL}/js/ebook/plugins/search.js"></script>
 
 <!-- Highlights -->
-<script src="js/libs/jquery.highlight.js"></script>
-<script src="js/hooks/extensions/highlight.js"></script>
+<script src="${baseURL}/js/ebook/jquery.highlight.js"></script>
+<script src="${baseURL}/js/ebook/extensions/highlight.js"></script>
 
 <!-- Full Screen -->
-<script src="js/libs/screenfull.min.js"></script>
+<!-- <script src="js/libs/screenfull.min.js"></script> -->
 
 <!-- sidebar -->
-<script
-	src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
-<script src="simpler-sidebar/dist/jquery.simple-sidebar.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+<script src="${baseURL}/js/ebook/simpler-sidebar/dist/jquery.simple-sidebar.min.js"></script>
 
 <!-- CSS -->
 <!-- <link rel="stylesheet" href="basic.css"> -->
-<link rel="stylesheet" href="css/main.css">
-<link rel="stylesheet" href="css/normalize.css">
-<link rel="stylesheet" type="text/css" href="css/sidebar-style.css">
-
+<link rel="stylesheet" href="${baseURL}/css/ebook/main.css">
+<link rel="stylesheet" href="${baseURL}/css/ebook/normalize.css">
+<link rel="stylesheet" type="text/css" href="${baseURL}/css/ebook/sidebar-style.css">
+<style type="text/css">
+@font-face {
+  font-family: 'fontello';
+  src: url('${baseURL}/font/fontello.eot?60518104');
+  src: url('${baseURL}/font/fontello.eot?60518104#iefix') format('embedded-opentype'),
+       url('${baseURL}/font/fontello.woff?60518104') format('woff'),
+       url('${baseURL}/font/fontello.ttf?60518104') format('truetype'),
+       url('${baseURL}/font/fontello.svg?60518104#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+</style>
 
 <script>
 	"use strict";
@@ -71,8 +87,11 @@
 	//ビューモード(0:スライドビュー、1:テキストビュー)
 	var viewmode = 0;
 
-	//描画時の幅と高さを指定
-	var Book = ePub("../books/unzipped/" + paramValue + "/", {
+	var ePubFilePath = "../books/unzipped/" + paramValue + "/";
+	ePubFilePath = "C:/ebook/unzipped/English2/";
+
+	//描画時の幅と高さと開くファイルを指定
+	var Book = ePub(ePubFilePath, {
 		width : 768,
 		height : 1024,
 		spreads : false
@@ -80,17 +99,8 @@
 
 	$(function() {
 		$('#close').click(function() { //CLOSEボタンの処理
-			document.location = "../index.php";
+			document.location = "${baseURL}/ebook";
 		});
-		$('#changeview').click( //changeviewボタンの処理
-						function() {
-							var query = window.location.search.substring(1);
-							var element = query.split('=');
-							//var paramName = decodeURIComponent( element[ 0 ] );
-							var paramValue = decodeURIComponent(element[1]);
-							document.location = "viewer_ReflowMode.html?book-selection="
-									+ paramValue;
-						});
 		$('#bookmark').click(function() { //bookmarkボタンの処理(詳細はepubhelp.js内のBookmarkPage関数で定義)
 			BookmarkPage();
 			ajaxPostFunc("true","false");
@@ -175,7 +185,7 @@
 			<!-- ブックマークイメージ描画位置 -->
 				<div>
 					<div id="bookmarker" title="This page is book marked.">
-						<img src="img/bookmarker.png" />
+						<img src="${baseURL}/images/ebook/bookmarker.png" />
 					</div>
 				</div>
 		</div>
@@ -237,7 +247,7 @@
 
 	<!-- 読み込み時のローダー -->
 	<div id="loader">
-		<img src="../reader/img/loader.gif">
+		<img src="${baseURL}/images/ebook/loader.gif">
 	</div>
 
 	<script>

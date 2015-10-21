@@ -75,11 +75,12 @@ public class eBookController {
 				}
 			}
 		}
+		model.addAttribute("hittitlenum", id);
 		if(id != 0){
 			model.addAttribute("books", books);
-			return "ebook/reading/bookselect"; //一冊でも見つかれば選択画面へ
+			return "ebook/reading/bookselect"; //一冊でも見つかった場合の遷移先
 		}else{
-			return "ebook/index"; //一冊も見つからない場合indexへ
+			return "ebook/reading/bookselect"; //一冊も見つからない場合の遷移先
 		}
 	}
 
