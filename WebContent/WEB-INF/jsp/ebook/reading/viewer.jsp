@@ -78,7 +78,7 @@
 	//var paramName = decodeURIComponent( element[ 0 ] );
 	var paramValue = decodeURIComponent(element[1]);
 	//メディアファイルが入るフォルダ名は任意に設定可能(OPSやOEBPSが多いが...)なので、その名前を特定する
-	var mediaFilesName = mediaLocationCheck();;
+	/*var mediaFilesName = mediaLocationCheck();*/
 
 	//ウィンドウサイズ
 	var windowWidth = window.innerWidth;
@@ -87,8 +87,8 @@
 	//ビューモード(0:スライドビュー、1:テキストビュー)
 	var viewmode = 0;
 
-	var ePubFilePath = "../books/unzipped/" + paramValue + "/";
-	ePubFilePath = "C:/ebook/unzipped/English2/";
+	//ePubファイルのパス(unzipしたファイルのルートパスで、必ず/で終わる)
+	var ePubFilePath = "${baseURL}/eBook/unzipped/"+booktitle+"/";
 
 	//描画時の幅と高さと開くファイルを指定
 	var Book = ePub(ePubFilePath, {
@@ -231,7 +231,7 @@
 				<a id="highlighting" title="Highlight"> <font size="2"> <span style="background-color: yellow">abc</span></font> Check</a>
 				<a id="memo" class="icon-edit" title="show/take a memo">Memo</a>
 				<a id="viewmodechange" title='switch to "Text Viewer Mode"' class="icon-link">View</a>
-				<font color="red"><a id="close" class="icon-cancel-circled" title="Close">Close</a></font>
+				<font color="red"><a id="close" class="icon-cancel-circled" title="Close" >Close</a></font>
 			</div>
 		</div>
 

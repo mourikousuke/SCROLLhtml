@@ -11,7 +11,6 @@ import jp.ac.tokushima_u.is.ll.service.ItemService;
 import jp.ac.tokushima_u.is.ll.service.TaskService;
 import jp.ac.tokushima_u.is.ll.service.UserService;
 import jp.ac.tokushima_u.is.ll.ws.service.model.BookModel;
-import jp.ac.tokushima_u.is.ll.ws.service.model.OptionsModel;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -40,11 +39,7 @@ public class eBookController {
 		eBookSearchForm booksearch = new eBookSearchForm();
 		return booksearch;
 	}
-	@ModelAttribute
-	public OptionsModel setUpOptionsModel(){
-		OptionsModel optionsModel = new OptionsModel();
-		return optionsModel;
-	}
+
 	@ModelAttribute
 	public BookModel setUpBook(){
 		BookModel book = new BookModel("","");
