@@ -47,6 +47,7 @@
 <script>
 	"use strict";
 	var userid; // ユーザID
+	var booktitle = "${selected}";
 	var oldChapter = 0, oldPage = 1;
 	// BookmarkedPages["chapter-pages"]=true(bookmarked) or false(not bookmarked)
 	// ex. BookmarkedPages[1-2]=true means "chapter 1 page 2 is bookmarked"
