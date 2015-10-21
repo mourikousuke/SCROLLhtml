@@ -24,7 +24,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("/ebook") // ルート
 public class eBookController {
 
-	private static String ePubFilesPath = "http://localhost:8080/learninglog/eBook/unzipped/English2"; //ePubファイルの入っているディレクトリのパス
+	private static String ePubFilesPath = "C:/ebook/epub/"; //ePubファイルの入っているディレクトリのパス
 
 	@Autowired
 	private UserService userService;
@@ -94,15 +94,14 @@ public class eBookController {
 	    File dir = new File(path);
 	    File[] files = dir.listFiles();
 	    if(dir.isDirectory()){
-	    	System.out.println("found");
 	    	for (int i = 0; i < files.length; i++) {
-	    		File file = files[i];
-	    		form.addTitleList(file.getName());
+	    		String orgTitle = files[i].getName();
+	    		String[] splitTitle = orgTitle.split("\\."); // [0]:タイトル、[1]拡張子に分割
+	    		if(splitTitle[1].equals("epub")) //拡張子がepubならタイトルリストに登録
+	    			form.addTitleList(splitTitle[0]);
 	    	}
 	    }else{
-	    	System.out.println("Not found");
+	    	System.out.println("not found : Check ePubFilesPath.");
 	    }
-	    form.addTitleList("English2");
-	    form.addTitleList("English3");
 	}
 }
