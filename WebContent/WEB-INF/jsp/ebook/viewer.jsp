@@ -63,7 +63,7 @@
 
 <script>
 	"use strict";
-	var userid; // ユーザID
+	var userid = "testUser"; // ユーザID
 	var booktitle = "${selected}";
 	//ePubファイルのパス(unzipしたファイルのルートパスで、必ず/で終わる)
 	var ePubFilePath = "${baseURL}/eBook/unzipped/"+booktitle+"/";
@@ -76,6 +76,12 @@
 	var HighlightedStrings = new Object();
 	//memo
 	var memorandum = new Object();
+	//利用端末
+	var deviceCode = "testDevice";
+	//授業コード
+	var classCode = "testClass";
+	//ブラウザコード
+	var browserName = "testBrowser";
 
 	var query = window.location.search.substring(1);
 	var element = query.split('=');
@@ -106,7 +112,7 @@
 		});
 		$('#bookmark').click(function() { //bookmarkボタンの処理(詳細はepubhelp.js内のBookmarkPage関数で定義)
 			BookmarkPage();
-			ajaxPostFunc("true","false");
+			onBookmarked();
 		});
 		$('#memo').click(function() { //memoボタンの処理(詳細はepubhelp.js内のmemoFunc関数で定義)
 			memoFunc();
@@ -151,16 +157,48 @@
 			windowSizeChanged();
 		};
 
+		function logmake(ac, tg){ //acはアクションコード, tgはターゲットでいずれもString。これらを受け、ログのjsonオブジェクトにして返す。
+			var now = new Date();
+			var day = now.getFullYear() + "/" + now.getMonth() + "/" + now.getDate();
+			var time = now.getHours() + ":" + now.getMinutes() + ":" + now.getSeconds();
+			//userid, booktitleは既知
+			var ActionCode = ac;
+			var ChapterNum = Book.getChapter();
+			var PageNum = Book.getPage();
+			//deviceCodeは既知
+			var Target = tg;
+			//classCode, WindowHeight, WindowHeight, browserNameは既知
+			var JSONdata = {
+					"DATE" : day,
+					"TIME" : time,
+					"USER_ID" : userid,
+					"BOOK_TITLE" : booktitle,
+					"ACTION_CODE" : ActionCode,
+					"CHAPTER_NUMBER" : ChapterNum,
+					"PAGE_NUMBER" : PageNum,
+					"DEVICE" : deviceCode,
+					"TARGET" : Target,
+					"CLASS_CODE" : classCode,
+					"WINDOW_WIDTH" : windowWidth,
+					"WINDOW_HEIGHT" : windowHeight,
+					"BROWSER_NAME" : browserName
+			};
+			return JSONdata;
+		}
 
 		function onBookmarked(){
 			<c:url value="/ebook/ebooklog.json" var="ebooklogUrl" />
+			var jsonData = JSON.stringify(logmake("BOOKMARK", ""));
 			$.ajax({
 				type: "POST",
 				url: "${ebooklogUrl}",
-				data: {taskId:'${task.id}', queryvalue:$('#querylog').val()},
+				data: jsonData,
 				dataType: "json",
-				success: function(data){
-
+				success: function(jsonData){
+					alert("s");
+				},
+				error: function(jsonData){
+					alert("f");
 				}
 			});
 		}

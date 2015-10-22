@@ -15,6 +15,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 
 
 @Controller
@@ -77,11 +78,13 @@ public class eBookController {
 		}
 	}
 
-	@RequestMapping(value="/viewer")
-	public String openViewer(eBookSearchForm form,  ModelMap model) {;
+	@RequestMapping(value="/viewer", method= RequestMethod.POST) //viewerにPOSTアクセスした際に処理
+	public String openViewer(eBookSearchForm form,  ModelMap model) {
 		model.addAttribute("selected", form.getSelected());
 		return "ebook/viewer";
 	}
+
+
 
 	public static void getEpubFiles(eBookSearchForm form) {
 	    String path = ePubFilesPath;
