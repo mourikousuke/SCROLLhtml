@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" xml:lang="en" version="2005-1">
+<head>
+ <meta name="dtb:uid" content="urn:uuid:8ce57803-fa50-496b-8e66-7ddab0189abb" />
+ <meta name="dtb:depth" content="1" />
+ <meta name="dtb:totalPageCount" content="0" />
+ <meta name="dtb:maxPageNumber" content="0" />
+</head>
+<docTitle><text>Canto di Natale</text></docTitle>
+<navMap>
+ <navPoint id="navPoint-000001" playOrder="1">
+  <navLabel><text>Cover</text></navLabel>
+  <content src="Text/copertina.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000002" playOrder="2">
+  <navLabel><text>Introduction</text></navLabel>
+  <content src="Text/presentazione.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000003" playOrder="3">
+  <navLabel><text>Table of Contents</text></navLabel>
+  <content src="Text/indice.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000004" playOrder="4">
+  <navLabel><text>A Christmas Carol</text></navLabel>
+  <content src="Text/p001.en.xhtml"/>
+    <navPoint id="navPoint-000005" playOrder="5">
+      <navLabel><text>Stave One</text></navLabel>
+      <content src="Text/p002.en.xhtml"/>
+     </navPoint>
+     <navPoint id="navPoint-000006" playOrder="6">
+      <navLabel><text>Stave Two</text></navLabel>
+      <content src="Text/p003.en.xhtml"/>
+     </navPoint>
+     <navPoint id="navPoint-000007" playOrder="7">
+      <navLabel><text>Stave Three</text></navLabel>
+      <content src="Text/p004.en.xhtml"/>
+     </navPoint>
+     <navPoint id="navPoint-000008" playOrder="8">
+      <navLabel><text>Stave Four</text></navLabel>
+      <content src="Text/p005.en.xhtml"/>
+     </navPoint>
+     <navPoint id="navPoint-000009" playOrder="9">
+      <navLabel><text>Stave Five</text></navLabel>
+      <content src="Text/p006.en.xhtml"/>
+     </navPoint>
+ </navPoint>
+ <navPoint id="navPoint-000010" playOrder="10">
+  <navLabel><text>Cantico di Natale</text></navLabel>
+  <content src="Text/p001.it.xhtml"/>
+    <navPoint id="navPoint-000011" playOrder="11">
+      <navLabel><text>Strofa Prima</text></navLabel>
+      <content src="Text/p002.it.xhtml"/>
+     </navPoint>
+     <navPoint id="navPoint-000012" playOrder="12">
+      <navLabel><text>Strofa Seconda</text></navLabel>
+      <content src="Text/p003.it.xhtml"/>
+     </navPoint>
+     <navPoint id="navPoint-000013" playOrder="13">
+      <navLabel><text>Strofa Terza</text></navLabel>
+      <content src="Text/p004.it.xhtml"/>
+     </navPoint>
+     <navPoint id="navPoint-000014" playOrder="14">
+      <navLabel><text>Strofa Quarta</text></navLabel>
+      <content src="Text/p005.it.xhtml"/>
+     </navPoint>
+     <navPoint id="navPoint-000015" playOrder="15">
+      <navLabel><text>Strofa Quinta</text></navLabel>
+      <content src="Text/p006.it.xhtml"/>
+     </navPoint>
+ </navPoint>
+ <navPoint id="navPoint-000016" playOrder="16">
+  <navLabel><text>Colophon</text></navLabel>
+  <content src="Text/colophon.xhtml"/>
+ </navPoint>
+</navMap>
+</ncx>

@@ -1,0 +1,868 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" xml:lang="it" version="2005-1">
+<head>
+ <meta name="dtb:uid" content="urn:uuid:bbd5e585-04b4-403c-bec0-f29caabd1d1a" />
+ <meta name="dtb:depth" content="1" />
+ <meta name="dtb:totalPageCount" content="0" />
+ <meta name="dtb:maxPageNumber" content="0" />
+</head>
+<docTitle><text>Il Milione</text></docTitle>
+<navMap>
+ <navPoint id="navPoint-000001" playOrder="1">
+  <navLabel><text>Copertina</text></navLabel>
+  <content src="Text/copertina.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000002" playOrder="2">
+  <navLabel><text>Colophon</text></navLabel>
+  <content src="Text/colophon.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000003" playOrder="3">
+  <navLabel><text>Indice</text></navLabel>
+  <content src="Text/indice.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000004" playOrder="4">
+  <navLabel><text>Frontespizio</text></navLabel>
+  <content src="Text/p000.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000005" playOrder="5">
+  <navLabel><text>Capitolo 1</text></navLabel>
+  <content src="Text/p001.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000006" playOrder="6">
+  <navLabel><text>Capitolo 2 - Lor partita di Gostantinopoli.</text></navLabel>
+  <content src="Text/p002.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000007" playOrder="7">
+  <navLabel><text>Capitolo 3</text></navLabel>
+  <content src="Text/p003.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000008" playOrder="8">
+  <navLabel><text>Capitolo 4 - Come si partiro dal re Barca.</text></navLabel>
+  <content src="Text/p004.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000009" playOrder="9">
+  <navLabel><text>Capitolo 5</text></navLabel>
+  <content src="Text/p005.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000010" playOrder="10">
+  <navLabel><text>Capitolo 6 - Come giunsono al Gran Cane.</text></navLabel>
+  <content src="Text/p006.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000011" playOrder="11">
+  <navLabel><text>Capitolo 7 - Come il Grande [Kane] mandò gli due [fratelli] al papa per amb[asciadori].</text></navLabel>
+  <content src="Text/p007.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000012" playOrder="12">
+  <navLabel><text>Capitolo 8 - Come 'l Grande Kane donò a li due fratell[i] la tavola de l'oro.</text></navLabel>
+  <content src="Text/p008.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000013" playOrder="13">
+  <navLabel><text>Capitolo 9 - Come li due fratelli vennero a la città d' A [cri].</text></navLabel>
+  <content src="Text/p009.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000014" playOrder="14">
+  <navLabel><text>Capitolo 10 - Come li due fra[telli] si partiro da Vine[gia] per tornare al Grande [Kane].</text></navLabel>
+  <content src="Text/p010.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000015" playOrder="15">
+  <navLabel><text>Capitolo 11 - Come li due fratelli si partiro d'Acri.</text></navLabel>
+  <content src="Text/p011.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000016" playOrder="16">
+  <navLabel><text>Capitolo 12 - Come li due fratelli vanno al papa.</text></navLabel>
+  <content src="Text/p012.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000017" playOrder="17">
+  <navLabel><text>Capitolo 13 - Come li due frate[lli] vegnono a la città di Chemeinfu, ov 'è lo [Gran]de Kane.</text></navLabel>
+  <content src="Text/p013.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000018" playOrder="18">
+  <navLabel><text>Capitolo 14 - Come i due fratelli vennero al Grande Cane.</text></navLabel>
+  <content src="Text/p014.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000019" playOrder="19">
+  <navLabel><text>Capitolo 15 - Come lo Grande Kane mandò Marco, figliuolo di messer Nicolao, per suo messaggio.</text></navLabel>
+  <content src="Text/p015.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000020" playOrder="20">
+  <navLabel><text>Capitolo 16 - Come messer Marco tornò al Grande Kane.</text></navLabel>
+  <content src="Text/p016.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000021" playOrder="21">
+  <navLabel><text>Capitolo 17 - Come messer Niccolao e messer Mafeo e messer Marco dimandaro comiato dal Grande Kane.</text></navLabel>
+  <content src="Text/p017.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000022" playOrder="22">
+  <navLabel><text>Capitolo 18 - Qui divisa come messer Marco e messer Niccolao e messer Mafeo si partiro dal Grande Cane.</text></navLabel>
+  <content src="Text/p018.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000023" playOrder="23">
+  <navLabel><text>Capitolo 19 - Qui divisa de la [provincia] d'Erminia.</text></navLabel>
+  <content src="Text/p019.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000024" playOrder="24">
+  <navLabel><text>Capitolo 20 - Qui divisa de la provincia di Turcomannia.</text></navLabel>
+  <content src="Text/p020.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000025" playOrder="25">
+  <navLabel><text>Capitolo 21 - De la Grande Erminia.</text></navLabel>
+  <content src="Text/p021.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000026" playOrder="26">
+  <navLabel><text>Capitolo 22 - Del re di Giorgens.</text></navLabel>
+  <content src="Text/p022.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000027" playOrder="27">
+  <navLabel><text>Capitolo 23 - Del reame di Mosul.</text></navLabel>
+  <content src="Text/p023.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000028" playOrder="28">
+  <navLabel><text>Capitolo 24 - Di Baudac, come fu presa.</text></navLabel>
+  <content src="Text/p024.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000029" playOrder="29">
+  <navLabel><text>Capitolo 25 - Della nobile città di Toris.</text></navLabel>
+  <content src="Text/p025.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000030" playOrder="30">
+  <navLabel><text>Capitolo 26 - De la maravigli(a) di Baudac, de la montagna.</text></navLabel>
+  <content src="Text/p026.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000031" playOrder="31">
+  <navLabel><text>Capitolo 27</text></navLabel>
+  <content src="Text/p027.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000032" playOrder="32">
+  <navLabel><text>Capitolo 28 - Quando la visione venne al vescovo che per lo priego del ciabattiere si mutarebbe la montagna.</text></navLabel>
+  <content src="Text/p028.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000033" playOrder="33">
+  <navLabel><text>Capitolo 29</text></navLabel>
+  <content src="Text/p029.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000034" playOrder="34">
+  <navLabel><text>Capitolo 30 - De la grande provincia di Persia: de' 3 Magi.</text></navLabel>
+  <content src="Text/p030.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000035" playOrder="35">
+  <navLabel><text>Capitolo 31 - De li tre Magi.</text></navLabel>
+  <content src="Text/p031.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000036" playOrder="36">
+  <navLabel><text>Capitolo 32 - De li 8 reami di Persia.</text></navLabel>
+  <content src="Text/p032.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000037" playOrder="37">
+  <navLabel><text>Capitolo 33 - Della città di Iadis.</text></navLabel>
+  <content src="Text/p033.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000038" playOrder="38">
+  <navLabel><text>Capitolo 34 - Del reame di Creman.</text></navLabel>
+  <content src="Text/p034.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000039" playOrder="39">
+  <navLabel><text>Capitolo 35 - Di Camandi.</text></navLabel>
+  <content src="Text/p035.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000040" playOrder="40">
+  <navLabel><text>Capitolo 36 - De la grande china.</text></navLabel>
+  <content src="Text/p036.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000041" playOrder="41">
+  <navLabel><text>Capitolo 37 - Come si cavalca per lo diserto.</text></navLabel>
+  <content src="Text/p037.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000042" playOrder="42">
+  <navLabel><text>Capitolo 38 - De Gobiam.</text></navLabel>
+  <content src="Text/p038.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000043" playOrder="43">
+  <navLabel><text>Capitolo 39 - D'uno diserto.</text></navLabel>
+  <content src="Text/p039.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000044" playOrder="44">
+  <navLabel><text>Capitolo 40 - Del Veglio de la Montagna e come fece il paradiso, e li assessini.</text></navLabel>
+  <content src="Text/p040.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000045" playOrder="45">
+  <navLabel><text>Capitolo 41</text></navLabel>
+  <content src="Text/p041.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000046" playOrder="46">
+  <navLabel><text>Capitolo 42 - Come Alau, signore de' Tarteri del Levante il distrusse.</text></navLabel>
+  <content src="Text/p042.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000047" playOrder="47">
+  <navLabel><text>Capitolo 43 - De la città Supunga.</text></navLabel>
+  <content src="Text/p043.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000048" playOrder="48">
+  <navLabel><text>Capitolo 44 - Di Balac.</text></navLabel>
+  <content src="Text/p044.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000049" playOrder="49">
+  <navLabel><text>Capitolo 45 - De la montagna del sale.</text></navLabel>
+  <content src="Text/p045.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000050" playOrder="50">
+  <navLabel><text>Capitolo 46 - Di Balascam.</text></navLabel>
+  <content src="Text/p046.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000051" playOrder="51">
+  <navLabel><text>Capitolo 47 - De la gente di Bastian.</text></navLabel>
+  <content src="Text/p047.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000052" playOrder="52">
+  <navLabel><text>Capitolo 48 - Di Chesimun.</text></navLabel>
+  <content src="Text/p048.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000053" playOrder="53">
+  <navLabel><text>Capitolo 49 - De(l) grande fiume di Baudascian.</text></navLabel>
+  <content src="Text/p049.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000054" playOrder="54">
+  <navLabel><text>Capitolo 50 - Del reame di Casciar.</text></navLabel>
+  <content src="Text/p050.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000055" playOrder="55">
+  <navLabel><text>Capitolo 51 - Di Samarcan.</text></navLabel>
+  <content src="Text/p051.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000056" playOrder="56">
+  <navLabel><text>Capitolo 52 - De Carcam.</text></navLabel>
+  <content src="Text/p052.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000057" playOrder="57">
+  <navLabel><text>Capitolo 53 - Di Cotam.</text></navLabel>
+  <content src="Text/p053.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000058" playOrder="58">
+  <navLabel><text>Capitolo 54 - Di Pein.</text></navLabel>
+  <content src="Text/p054.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000059" playOrder="59">
+  <navLabel><text>Capitolo 55 - Di Ciarcian.</text></navLabel>
+  <content src="Text/p055.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000060" playOrder="60">
+  <navLabel><text>Capitolo 56 - Di Lop.</text></navLabel>
+  <content src="Text/p056.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000061" playOrder="61">
+  <navLabel><text>Capitolo 57 - De la grande provincia di Ta(n)gut.</text></navLabel>
+  <content src="Text/p057.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000062" playOrder="62">
+  <navLabel><text>Capitolo 58 - De Camul.</text></navLabel>
+  <content src="Text/p058.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000063" playOrder="63">
+  <navLabel><text>Capitolo 59 - Chingitalas.</text></navLabel>
+  <content src="Text/p059.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000064" playOrder="64">
+  <navLabel><text>Capitolo 60 - De Succiur.</text></navLabel>
+  <content src="Text/p060.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000065" playOrder="65">
+  <navLabel><text>Capitolo 61 - Di Ca(n)picion.</text></navLabel>
+  <content src="Text/p061.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000066" playOrder="66">
+  <navLabel><text>Capitolo 62 - De Ezima.</text></navLabel>
+  <content src="Text/p062.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000067" playOrder="67">
+  <navLabel><text>Capitolo 63 - Di Carocaron.</text></navLabel>
+  <content src="Text/p063.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000068" playOrder="68">
+  <navLabel><text>Capitolo 64 - Come Cinghis fue il primaio Kane.</text></navLabel>
+  <content src="Text/p064.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000069" playOrder="69">
+  <navLabel><text>Capitolo 65 - Come Cinghi Kane fece suo sforzo contra Preste Gianni.</text></navLabel>
+  <content src="Text/p065.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000070" playOrder="70">
+  <navLabel><text>Capitolo 66 - Come 'l Preste G(i)anni venne contra Cinghi.</text></navLabel>
+  <content src="Text/p066.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000071" playOrder="71">
+  <navLabel><text>Capitolo 67 - De la battaglia.</text></navLabel>
+  <content src="Text/p067.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000072" playOrder="72">
+  <navLabel><text>Capitolo 68 - Del novero degli Grandi Cani, quanti furo.</text></navLabel>
+  <content src="Text/p068.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000073" playOrder="73">
+  <navLabel><text>Capitolo 69 - Del dio de' Tartari.</text></navLabel>
+  <content src="Text/p069.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000074" playOrder="74">
+  <navLabel><text>Capitolo 70 - Del piano di Bangu.</text></navLabel>
+  <content src="Text/p070.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000075" playOrder="75">
+  <navLabel><text>Capitolo 71 - Del reame d 'Erguil.</text></navLabel>
+  <content src="Text/p071.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000076" playOrder="76">
+  <navLabel><text>Capitolo 72 - De l'Egrig(a)ia.</text></navLabel>
+  <content src="Text/p072.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000077" playOrder="77">
+  <navLabel><text>Capitolo 73 - De la provincia di Tenduc.</text></navLabel>
+  <content src="Text/p073.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000078" playOrder="78">
+  <navLabel><text>Capitolo 74 - De la città di Giandu.</text></navLabel>
+  <content src="Text/p074.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000079" playOrder="79">
+  <navLabel><text>Capitolo 75 - Di tutti li fatti de(l) Grande Kane che regna aguale.</text></navLabel>
+  <content src="Text/p075.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000080" playOrder="80">
+  <navLabel><text>Capitolo 76 - De la grande battaglia che 'l Grande Kane fece con Naian.</text></navLabel>
+  <content src="Text/p076.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000081" playOrder="81">
+  <navLabel><text>Capitolo 77</text></navLabel>
+  <content src="Text/p077.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000082" playOrder="82">
+  <navLabel><text>Capitolo 78 - Comincia la bataglia.</text></navLabel>
+  <content src="Text/p078.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000083" playOrder="83">
+  <navLabel><text>Capitolo 79 - Come Naian fu morto.</text></navLabel>
+  <content src="Text/p079.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000084" playOrder="84">
+  <navLabel><text>Capitolo 80 - Come 'l Grande Kane tornò ne la città di Coblau.</text></navLabel>
+  <content src="Text/p080.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000085" playOrder="85">
+  <navLabel><text>Capitolo 81 - De la fattezza del Grande Kane.</text></navLabel>
+  <content src="Text/p081.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000086" playOrder="86">
+  <navLabel><text>Capitolo 82 - De' figliuoli del Grande Kane.</text></navLabel>
+  <content src="Text/p082.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000087" playOrder="87">
+  <navLabel><text>Capitolo 83 - Del palagio del Grande Kane.</text></navLabel>
+  <content src="Text/p083.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000088" playOrder="88">
+  <navLabel><text>Capitolo 84 - Ancora d'uno palagio del nipote.</text></navLabel>
+  <content src="Text/p084.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000089" playOrder="89">
+  <navLabel><text>Capitolo 85 - Delle guardie.</text></navLabel>
+  <content src="Text/p085.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000090" playOrder="90">
+  <navLabel><text>Capitolo 86 - De la festa come nasce.</text></navLabel>
+  <content src="Text/p086.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000091" playOrder="91">
+  <navLabel><text>Capitolo 87 - Qui divis(a) de la festa.</text></navLabel>
+  <content src="Text/p087.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000092" playOrder="92">
+  <navLabel><text>Capitolo 88 - De la bianca festa.</text></navLabel>
+  <content src="Text/p088.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000093" playOrder="93">
+  <navLabel><text>Capitolo 89 - De' 12.000 baroni che vegnono a la festa, come sono vestiti dal Grande Kane.</text></navLabel>
+  <content src="Text/p089.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000094" playOrder="94">
+  <navLabel><text>Capitolo 90 - Della grande caccia che fa il Gran Cane.</text></navLabel>
+  <content src="Text/p090.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000095" playOrder="95">
+  <navLabel><text>Capitolo 91 - De' leoni e de l'altre bestie da cacciare.</text></navLabel>
+  <content src="Text/p091.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000096" playOrder="96">
+  <navLabel><text>Capitolo 92 - Di due baroni che governano la caccia.</text></navLabel>
+  <content src="Text/p092.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000097" playOrder="97">
+  <navLabel><text>Capitolo 93 - Come 'l Grande Sire va in caccia.</text></navLabel>
+  <content src="Text/p093.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000098" playOrder="98">
+  <navLabel><text>Capitolo 94 - Come 'l Grande Kane tiene sua corte e festa.</text></navLabel>
+  <content src="Text/p094.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000099" playOrder="99">
+  <navLabel><text>Capitolo 95 - De la moneta del Grande Ka[ne].</text></navLabel>
+  <content src="Text/p095.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000100" playOrder="100">
+  <navLabel><text>Capitolo 96 - De li 12 baroni che sono sopra tutte le cose del Grande Kane.</text></navLabel>
+  <content src="Text/p096.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000101" playOrder="101">
+  <navLabel><text>Capitolo 97 - Come di Canbalu si part[e] molti mesaggi per andare in molte parti.</text></navLabel>
+  <content src="Text/p097.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000102" playOrder="102">
+  <navLabel><text>Capitolo 98 - Come 'l Grande Kane [aiuta] sua gente quando (è) pistolenza di biade.</text></navLabel>
+  <content src="Text/p098.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000103" playOrder="103">
+  <navLabel><text>Capitolo 99 - Degli àlbori.</text></navLabel>
+  <content src="Text/p099.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000104" playOrder="104">
+  <navLabel><text>Capitolo 100 - Del vino.</text></navLabel>
+  <content src="Text/p100.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000105" playOrder="105">
+  <navLabel><text>Capitolo 101 - De le pietre ch'ardono.</text></navLabel>
+  <content src="Text/p101.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000106" playOrder="106">
+  <navLabel><text>Capitolo 102 - Come 'l Grande Kane fa ri[porre] la biada (per) soccorere sua gente.</text></navLabel>
+  <content src="Text/p102.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000107" playOrder="107">
+  <navLabel><text>Capitolo 103 - De la carità del Signore.</text></navLabel>
+  <content src="Text/p103.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000108" playOrder="108">
+  <navLabel><text>Capitolo 104 - De la provincia del Catai.</text></navLabel>
+  <content src="Text/p104.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000109" playOrder="109">
+  <navLabel><text>Capitolo 105 - De la grande città del Giogui.</text></navLabel>
+  <content src="Text/p105.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000110" playOrder="110">
+  <navLabel><text>Capitolo 106 - Del reame di Taiamfu.</text></navLabel>
+  <content src="Text/p106.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000111" playOrder="111">
+  <navLabel><text>Capitolo 107 - Del castello del Caitui.</text></navLabel>
+  <content src="Text/p107.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000112" playOrder="112">
+  <navLabel><text>Capitolo 108 - Come 'l Preste fece prendere lo Re dell'Oro.</text></navLabel>
+  <content src="Text/p108.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000113" playOrder="113">
+  <navLabel><text>Capitolo 109 - Del grande fiume di Carameran.</text></navLabel>
+  <content src="Text/p109.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000114" playOrder="114">
+  <navLabel><text>Capitolo 110 - De la città di Quegianfu.</text></navLabel>
+  <content src="Text/p110.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000115" playOrder="115">
+  <navLabel><text>Capitolo 111 - De Cuncum.</text></navLabel>
+  <content src="Text/p111.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000116" playOrder="116">
+  <navLabel><text>Capitolo 112 - De la provincia A(n)balet Mangi.</text></navLabel>
+  <content src="Text/p112.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000117" playOrder="117">
+  <navLabel><text>Capitolo 113 - De Sardanfu.</text></navLabel>
+  <content src="Text/p113.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000118" playOrder="118">
+  <navLabel><text>Capitolo 114 - De la provincia di Tebet.</text></navLabel>
+  <content src="Text/p114.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000119" playOrder="119">
+  <navLabel><text>Capitolo 115 - Ancora de la provincia di Tebet.</text></navLabel>
+  <content src="Text/p115.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000120" playOrder="120">
+  <navLabel><text>Capitolo 116 - De la provincia di Gaindu.</text></navLabel>
+  <content src="Text/p116.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000121" playOrder="121">
+  <navLabel><text>Capitolo 117 - De la provincia di Caragian.</text></navLabel>
+  <content src="Text/p117.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000122" playOrder="122">
+  <navLabel><text>Capitolo 118 - Ancora divisa de la provincia di Caragian.</text></navLabel>
+  <content src="Text/p118.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000123" playOrder="123">
+  <navLabel><text>Capitolo 119 - De la provincia d'Ardandan.</text></navLabel>
+  <content src="Text/p119.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000124" playOrder="124">
+  <navLabel><text>Capitolo 120 - De la grande china.</text></navLabel>
+  <content src="Text/p120.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000125" playOrder="125">
+  <navLabel><text>Capitolo 121 - De la provincia de Mien.</text></navLabel>
+  <content src="Text/p121.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000126" playOrder="126">
+  <navLabel><text>Capitolo 122 - De la provincia di Gangala.</text></navLabel>
+  <content src="Text/p122.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000127" playOrder="127">
+  <navLabel><text>Capitolo 123 - De la provincia di Caugigu.</text></navLabel>
+  <content src="Text/p123.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000128" playOrder="128">
+  <navLabel><text>Capitolo 124 - D'Aniu.</text></navLabel>
+  <content src="Text/p124.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000129" playOrder="129">
+  <navLabel><text>Capitolo 125 - Di Toloman.</text></navLabel>
+  <content src="Text/p125.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000130" playOrder="130">
+  <navLabel><text>Capitolo 126 - Di Cugiu.</text></navLabel>
+  <content src="Text/p126.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000131" playOrder="131">
+  <navLabel><text>Capitolo 127 - De la città di Cacafu.</text></navLabel>
+  <content src="Text/p127.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000132" playOrder="132">
+  <navLabel><text>Capitolo 128 - Della città di Ciaglu.</text></navLabel>
+  <content src="Text/p128.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000133" playOrder="133">
+  <navLabel><text>Capitolo 129 - Di Cia(n)gli.</text></navLabel>
+  <content src="Text/p129.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000134" playOrder="134">
+  <navLabel><text>Capitolo 130 - Della città ch'à nome Codifu.</text></navLabel>
+  <content src="Text/p130.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000135" playOrder="135">
+  <navLabel><text>Capitolo 131 - Di Signi.</text></navLabel>
+  <content src="Text/p131.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000136" playOrder="136">
+  <navLabel><text>Capitolo 132 - Di Ligni.</text></navLabel>
+  <content src="Text/p132.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000137" playOrder="137">
+  <navLabel><text>Capitolo 133 - Di Pigni.</text></navLabel>
+  <content src="Text/p133.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000138" playOrder="138">
+  <navLabel><text>Capitolo 134 - Di Cigni.</text></navLabel>
+  <content src="Text/p134.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000139" playOrder="139">
+  <navLabel><text>Capitolo 135 - Come il Grande Kane conquistò lo reame de li Mangi.</text></navLabel>
+  <content src="Text/p135.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000140" playOrder="140">
+  <navLabel><text>Capitolo 136 - Di Caygiagui.</text></navLabel>
+  <content src="Text/p136.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000141" playOrder="141">
+  <navLabel><text>Capitolo 137 - Di Pauchin.</text></navLabel>
+  <content src="Text/p137.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000142" playOrder="142">
+  <navLabel><text>Capitolo 138 - Di Cayn.</text></navLabel>
+  <content src="Text/p138.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000143" playOrder="143">
+  <navLabel><text>Capitolo 139 - Tingni.</text></navLabel>
+  <content src="Text/p139.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000144" playOrder="144">
+  <navLabel><text>Capitolo 140 - D'un'altra città.</text></navLabel>
+  <content src="Text/p140.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000145" playOrder="145">
+  <navLabel><text>Capitolo 141 - Di Nangi.</text></navLabel>
+  <content src="Text/p141.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000146" playOrder="146">
+  <navLabel><text>Capitolo 142 - Della città di Sagianfu.</text></navLabel>
+  <content src="Text/p142.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000147" playOrder="147">
+  <navLabel><text>Capitolo 143 - Di Sigui e 'l fiume d[i] Quian.</text></navLabel>
+  <content src="Text/p143.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000148" playOrder="148">
+  <navLabel><text>Capitolo 144 - De la città di Caigui.</text></navLabel>
+  <content src="Text/p144.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000149" playOrder="149">
+  <navLabel><text>Capitolo 145 - Della città chiamata Cinghiafu.</text></navLabel>
+  <content src="Text/p145.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000150" playOrder="150">
+  <navLabel><text>Capitolo 146 - Della città chiamata Cighingiu.</text></navLabel>
+  <content src="Text/p146.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000151" playOrder="151">
+  <navLabel><text>Capitolo 147 - Della città chiamata Sugni.</text></navLabel>
+  <content src="Text/p147.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000152" playOrder="152">
+  <navLabel><text>Capitolo 148 - Di Quinsai.</text></navLabel>
+  <content src="Text/p148.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000153" playOrder="153">
+  <navLabel><text>Capitolo 149 - La rédita del sale.</text></navLabel>
+  <content src="Text/p149.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000154" playOrder="154">
+  <navLabel><text>Capitolo 150 - Della città che si chiama Tapigni.</text></navLabel>
+  <content src="Text/p150.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000155" playOrder="155">
+  <navLabel><text>Capitolo 151 - Del reame di Fugiu.</text></navLabel>
+  <content src="Text/p151.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000156" playOrder="156">
+  <navLabel><text>Capitolo 152 - Della città chiamata Fugiu.</text></navLabel>
+  <content src="Text/p152.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000157" playOrder="157">
+  <navLabel><text>Capitolo 153 - Di Zart[om].</text></navLabel>
+  <content src="Text/p153.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000158" playOrder="158">
+  <navLabel><text>Capitolo 154 - Qui conincia tutte le maravigliose cose de l'India.</text></navLabel>
+  <content src="Text/p154.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000159" playOrder="159">
+  <navLabel><text>Capitolo 155 - Dell'isola di Zipangu.</text></navLabel>
+  <content src="Text/p155.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000160" playOrder="160">
+  <navLabel><text>Capitolo 156</text></navLabel>
+  <content src="Text/p156.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000161" playOrder="161">
+  <navLabel><text>Capitolo 157 - Come sono gl'idoli di questa isola.</text></navLabel>
+  <content src="Text/p157.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000162" playOrder="162">
+  <navLabel><text>Capitolo 158 - Della provincia di Ciamba.</text></navLabel>
+  <content src="Text/p158.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000163" playOrder="163">
+  <navLabel><text>Capitolo 159 - Dell'isola di Iava.</text></navLabel>
+  <content src="Text/p159.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000164" playOrder="164">
+  <navLabel><text>Capitolo 160 - Dell'isole di Sodur e di Codur.</text></navLabel>
+  <content src="Text/p160.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000165" playOrder="165">
+  <navLabel><text>Capitolo 161 - Dell'isola di Petam.</text></navLabel>
+  <content src="Text/p161.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000166" playOrder="166">
+  <navLabel><text>Capitolo 162 - Della piccola isola di Iava.</text></navLabel>
+  <content src="Text/p162.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000167" playOrder="167">
+  <navLabel><text>Capitolo 163 - Del reame di Samarra.</text></navLabel>
+  <content src="Text/p163.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000168" playOrder="168">
+  <navLabel><text>Capitolo 164 - Del reame di Dragouain.</text></navLabel>
+  <content src="Text/p164.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000169" playOrder="169">
+  <navLabel><text>Capitolo 165 - Del reame di Lambri.</text></navLabel>
+  <content src="Text/p165.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000170" playOrder="170">
+  <navLabel><text>Capitolo 166 - Del reame di Fansur.</text></navLabel>
+  <content src="Text/p166.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000171" playOrder="171">
+  <navLabel><text>Capitolo 167 - Dell'isola di Neguveran.</text></navLabel>
+  <content src="Text/p167.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000172" playOrder="172">
+  <navLabel><text>Capitolo 168 - Dell'isola d'Angaman.</text></navLabel>
+  <content src="Text/p168.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000173" playOrder="173">
+  <navLabel><text>Capitolo 169 - Dell'isola di Seilla.</text></navLabel>
+  <content src="Text/p169.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000174" playOrder="174">
+  <navLabel><text>Capitolo 170 - Della provincia di Maabar.</text></navLabel>
+  <content src="Text/p170.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000175" playOrder="175">
+  <navLabel><text>Capitolo 171 - Del regno di Multifili.</text></navLabel>
+  <content src="Text/p171.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000176" playOrder="176">
+  <navLabel><text>Capitolo 172 - Di santo Tomaso l'apostolo.</text></navLabel>
+  <content src="Text/p172.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000177" playOrder="177">
+  <navLabel><text>Capitolo 173 - Della provincia di Lar.</text></navLabel>
+  <content src="Text/p173.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000178" playOrder="178">
+  <navLabel><text>Capitolo 174 - Dell'isola di Seila.</text></navLabel>
+  <content src="Text/p174.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000179" playOrder="179">
+  <navLabel><text>Capitolo 175 - Della città di Caver.</text></navLabel>
+  <content src="Text/p175.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000180" playOrder="180">
+  <navLabel><text>Capitolo 176 - Del reame di Coilun.</text></navLabel>
+  <content src="Text/p176.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000181" playOrder="181">
+  <navLabel><text>Capitolo 177 - Della contrada di Comacci.</text></navLabel>
+  <content src="Text/p177.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000182" playOrder="182">
+  <navLabel><text>Capitolo 178 - Del reame di Eli.</text></navLabel>
+  <content src="Text/p178.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000183" playOrder="183">
+  <navLabel><text>Capitolo 179 - Del reame di Melibar.</text></navLabel>
+  <content src="Text/p179.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000184" playOrder="184">
+  <navLabel><text>Capitolo 180 - Del reame di Gufurat.</text></navLabel>
+  <content src="Text/p180.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000185" playOrder="185">
+  <navLabel><text>Capitolo 181 - Del reame della Tana.</text></navLabel>
+  <content src="Text/p181.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000186" playOrder="186">
+  <navLabel><text>Capitolo 182 - Del reame di Canbaet.</text></navLabel>
+  <content src="Text/p182.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000187" playOrder="187">
+  <navLabel><text>Capitolo 183 - Dello reame di Chesmancora.</text></navLabel>
+  <content src="Text/p183.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000188" playOrder="188">
+  <navLabel><text>Capitolo 184 - D'alquante isole che sono per l'India.</text></navLabel>
+  <content src="Text/p184.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000189" playOrder="189">
+  <navLabel><text>Capitolo 185 - Dell'isola di Scara.</text></navLabel>
+  <content src="Text/p185.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000190" playOrder="190">
+  <navLabel><text>Capitolo 186 - Dell'isola di Madegascar.</text></navLabel>
+  <content src="Text/p186.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000191" playOrder="191">
+  <navLabel><text>Capitolo 187 - Dell'isola di Zachibar.</text></navLabel>
+  <content src="Text/p187.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000192" playOrder="192">
+  <navLabel><text>Capitolo 188 - Della mezzana India chiamata Nabasce.</text></navLabel>
+  <content src="Text/p188.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000193" playOrder="193">
+  <navLabel><text>Capitolo 189 - D'una novella del re d'Abasce.</text></navLabel>
+  <content src="Text/p189.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000194" playOrder="194">
+  <navLabel><text>Capitolo 190 - Della provincia d'Aden.</text></navLabel>
+  <content src="Text/p190.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000195" playOrder="195">
+  <navLabel><text>Capitolo 191 - Della città d'Escier.</text></navLabel>
+  <content src="Text/p191.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000196" playOrder="196">
+  <navLabel><text>Capitolo 192 - Della città Dufar.</text></navLabel>
+  <content src="Text/p192.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000197" playOrder="197">
+  <navLabel><text>Capitolo 193 - Della città di Calatu.</text></navLabel>
+  <content src="Text/p193.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000198" playOrder="198">
+  <navLabel><text>Capitolo 194 - Della città di Curmos.</text></navLabel>
+  <content src="Text/p194.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000199" playOrder="199">
+  <navLabel><text>Capitolo 195 - De la Grande Turchia.</text></navLabel>
+  <content src="Text/p195.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000200" playOrder="200">
+  <navLabel><text>Capitolo 196 - D'una battaglia.</text></navLabel>
+  <content src="Text/p196.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000201" playOrder="201">
+  <navLabel><text>Capitolo 197</text></navLabel>
+  <content src="Text/p197.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000202" playOrder="202">
+  <navLabel><text>Capitolo 198</text></navLabel>
+  <content src="Text/p198.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000203" playOrder="203">
+  <navLabel><text>Capitolo 199</text></navLabel>
+  <content src="Text/p199.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000204" playOrder="204">
+  <navLabel><text>Capitolo 200</text></navLabel>
+  <content src="Text/p200.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000205" playOrder="205">
+  <navLabel><text>Capitolo 201</text></navLabel>
+  <content src="Text/p201.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000206" playOrder="206">
+  <navLabel><text>Capitolo 202</text></navLabel>
+  <content src="Text/p202.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000207" playOrder="207">
+  <navLabel><text>Capitolo 203</text></navLabel>
+  <content src="Text/p203.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000208" playOrder="208">
+  <navLabel><text>Capitolo 204 - Delle parti di verso tramontana.</text></navLabel>
+  <content src="Text/p204.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000209" playOrder="209">
+  <navLabel><text>Capitolo 205 - La valle iscura.</text></navLabel>
+  <content src="Text/p205.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000210" playOrder="210">
+  <navLabel><text>Capitolo 206 - Della provincia di Rossia.</text></navLabel>
+  <content src="Text/p206.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000211" playOrder="211">
+  <navLabel><text>Capitolo 207 - Della provincia di Lacca.</text></navLabel>
+  <content src="Text/p207.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000212" playOrder="212">
+  <navLabel><text>Capitolo 208 - De' signori de' Tarteri del Ponente.</text></navLabel>
+  <content src="Text/p208.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000213" playOrder="213">
+  <navLabel><text>Capitolo 209 - D'una gran battaglia.</text></navLabel>
+  <content src="Text/p209.xhtml"/>
+ </navPoint>
+ <navPoint id="navPoint-000214" playOrder="214">
+  <navLabel><text>Epilogo</text></navLabel>
+  <content src="Text/p210.xhtml"/>
+ </navPoint>
+</navMap>
+</ncx>

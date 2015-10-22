@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="pubID" xml:lang="en" prefix="rendition: http://www.idpf.org/vocab/rendition/#">
+<metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+    <dc:identifier id="pubID">urn:uuid:8ce57803-fa50-496b-8e66-7ddab0189abb</dc:identifier>
+    <meta refines="#pubID" property="identifier-type" scheme="xsd:string">uuid</meta>
+    <dc:title id="title">A Christmas Carol</dc:title>
+    <dc:creator id="aut">Charles Dickens</dc:creator>
+    <meta refines="#aut" property="role" scheme="marc:relators">aut</meta>
+    <meta refines="#aut" property="file-as">Dickens, Charles</meta>
+    <dc:contributor id="bkp">ReadBeyond</dc:contributor>
+    <meta refines="#bkp" property="role" scheme="marc:relators">bkp</meta>
+    <meta refines="#bkp" property="file-as">ReadBeyond</meta>
+    <dc:language>en</dc:language>
+    <dc:language>it</dc:language>
+    <dc:date>2013-09-07</dc:date>
+    <dc:subject>Dickens</dc:subject>
+    <dc:subject>Scrooge</dc:subject>
+    <dc:subject>Marley</dc:subject>
+    <dc:subject>Christmas</dc:subject>
+    <dc:subject>Spirit of the Past</dc:subject>
+    <dc:subject>Spirit of the Present</dc:subject>
+    <dc:subject>Spirit of the Future</dc:subject>
+    <dc:subject>Spirits</dc:subject>
+    <dc:type>Book</dc:type>
+    <dc:description>
+     This eBook version of the famous A Christmas Carol by Charles Dickens features the original text in English and in its Italian translation.
+     This EPUB 3 eBook was prepared to test the feasibility of supporting parallel texts in EPUB reading systems. As of September 2013, IDPF is discussing some additions to the EPUB 3 specification in its Advanced/Hybrid Layout charter, but unfortunately actual implementations of the discussed ideas seem very far away.
+     We propose supporting this naming convention for parallel texts: if the spine contains two file names, foo.XX.xhtml and foo.YY.xhtml, where XX and YY are the ISO 639-1 codes for two languages (e.g., en and it), those two parts should be considered corresponding and the reading system might display them in parallel. Other spine elements, like bar.xhtml, should be considered common to all languages, and displayed both in parallel and in single-language rendition.
+     Note that this choice allows us to create fully EPUB 3-compliant files containing parallel texts, which can be rendered by standard EPUB 3 reading systems, but we allow reading systems honoring our naming convention to properly those texts in parallel. Additionally, we do not constrain the reading system/the EPUB file to display/contain just two languages.
+     At the moment we do not deal with element-level parallelism. For example, if two corresponding XHTML files have the same DOM structure, it is reasonable to align them element-wise. Moreover, the language codes should be extended to support regional variants, per the EPUB 3 specification. Our restriction to 2-letters ISO codes is for the sake of rapid development only.
+     This proposal is very simple, yet quite effective. Other options, like multi-OPF or markup-based approaches might prove viable and more robust, and the problem might be solved by tackling more general questions (e.g., the support of annotations, considering a translation of an original text as a special annotation of the text). The goal of this proposal is to raise awareness about parallel texts, not to craft a production-ready solution.
+    </dc:description>
+    <meta property="dcterms:modified">2013-09-07T00:00:01Z</meta>
+    <meta property="rendition:layout">reflowable</meta>
+</metadata>
+<manifest>
+    <item id="toc.ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+    <item id="toc" href="Text/toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
+    <item id="copertina" href="Text/copertina.xhtml" media-type="application/xhtml+xml"/>
+    <item id="colophon" href="Text/colophon.xhtml" media-type="application/xhtml+xml"/>
+    <item id="presentazione" href="Text/presentazione.xhtml" media-type="application/xhtml+xml"/>
+    <item id="indice" href="Text/indice.xhtml" media-type="application/xhtml+xml"/>
+    <item id="c001" href="Styles/style.css" media-type="text/css"/>
+    <item id="logofb.png" href="Images/logofb.png" media-type="image/png" />
+    <item id="logotw.png" href="Images/logotw.png" media-type="image/png" />
+    <item id="logowww.png" href="Images/logowww.png" media-type="image/png" />
+    <item id="p001.en" href="Text/p001.en.xhtml" media-type="application/xhtml+xml"/>
+    <item id="p002.en" href="Text/p002.en.xhtml" media-type="application/xhtml+xml"/>
+    <item id="p003.en" href="Text/p003.en.xhtml" media-type="application/xhtml+xml"/>
+    <item id="p004.en" href="Text/p004.en.xhtml" media-type="application/xhtml+xml"/>
+    <item id="p005.en" href="Text/p005.en.xhtml" media-type="application/xhtml+xml"/>
+    <item id="p006.en" href="Text/p006.en.xhtml" media-type="application/xhtml+xml"/>
+    <item id="p001.it" href="Text/p001.it.xhtml" media-type="application/xhtml+xml"/>
+    <item id="p002.it" href="Text/p002.it.xhtml" media-type="application/xhtml+xml"/>
+    <item id="p003.it" href="Text/p003.it.xhtml" media-type="application/xhtml+xml"/>
+    <item id="p004.it" href="Text/p004.it.xhtml" media-type="application/xhtml+xml"/>
+    <item id="p005.it" href="Text/p005.it.xhtml" media-type="application/xhtml+xml"/>
+    <item id="p006.it" href="Text/p006.it.xhtml" media-type="application/xhtml+xml"/>
+</manifest>
+<spine page-progression-direction="ltr" toc="toc.ncx">
+    <itemref idref="copertina" linear="yes"/>
+    <itemref idref="presentazione" linear="yes"/>
+    <itemref idref="indice" linear="yes"/>
+    <itemref idref="p001.en" linear="yes"/>
+    <itemref idref="p002.en" linear="yes"/>
+    <itemref idref="p003.en" linear="yes"/>
+    <itemref idref="p004.en" linear="yes"/>
+    <itemref idref="p005.en" linear="yes"/>
+    <itemref idref="p006.en" linear="yes"/>
+    <itemref idref="p001.it" linear="yes"/>
+    <itemref idref="p002.it" linear="yes"/>
+    <itemref idref="p003.it" linear="yes"/>
+    <itemref idref="p004.it" linear="yes"/>
+    <itemref idref="p005.it" linear="yes"/>
+    <itemref idref="p006.it" linear="yes"/>
+    <itemref idref="colophon" linear="yes"/>
+</spine>
+<guide>
+    <reference type="cover" title="Copertina" href="Text/copertina.xhtml" />
+    <reference type="toc" title="Indice" href="Text/indice.xhtml" />
+    <reference type="text" title="Inizio" href="Text/presentazione.xhtml" />
+</guide>
+</package>

@@ -1,0 +1,13 @@
+@font-face
+{
+font-family:"msyh";
+src:url("../Fonts/EmbedFont.ttf");
+}
+@font-face {
+font-family:"cnepub";
+src:url(res:///opt/sony/ebook/FONT/tt0011m_.ttf), url(res:///tt0011m_.ttf);
+}
+body {
+font-family:"cnepub", serif;
+font-family: "msyh";
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en" xml:lang="en">
+ <head>
+  <meta http-equiv="default-style" content="text/html; charset=utf-8"/>
+  <link rel="stylesheet" href="../Styles/style.css" type="text/css"/>
+  <title>Introduction</title>
+ </head>
+ <body>
+     <section epub:type="frontmatter foreword">
+     <h1>Introduction</h1>
+     <p>This eBook version of the famous <em>A Christmas Carol</em> by Charles Dickens features the original text in English and in its Italian translation.</p>
+     <p>This EPUB&#160;3 eBook was prepared to test the feasibility of supporting parallel texts in EPUB reading systems. As of September 2013, IDPF is discussing some additions to the EPUB&#160;3 specification in its Advanced/Hybrid Layout charter, but unfortunately actual implementations of the discussed ideas seem very far away.</p>
+     <p>We propose supporting this <em>naming convention</em> for parallel texts: if the spine contains two file names, <em>foo.XX.xhtml</em> and <em>foo.YY.xhtml</em>, where <em>XX</em> and <em>YY</em> are the <a href="http://www.iso.org/iso/home/standards/language_codes.htm">ISO 639-1 codes</a> for two languages (e.g., <em>en</em> and <em>it</em>), those two parts should be considered corresponding and the reading system might display them in parallel. Other spine elements, like <em>bar.xhtml</em>, should be considered common to all languages, and displayed both in parallel and in single-language rendition.</p>
+     <p>Note that this choice allows us to create fully EPUB&#160;3-compliant files containing parallel texts, which can be rendered by standard EPUB&#160;3 reading systems, but we allow reading systems honoring our naming convention to properly those texts in parallel. Additionally, we do not constrain the reading system/the EPUB file to display/contain just two languages.</p>
+     <p>At the moment we do not deal with element-level parallelism. For example, if two corresponding XHTML files have the same DOM structure, it is reasonable to align them element-wise. Moreover, the language codes should be extended to support regional variants, per the EPUB&#160;3 specification. Our restriction to 2-letters ISO codes is for the sake of rapid development only.</p>
+     <p>This proposal is very simple, yet quite effective. Other options, like multi-OPF or markup-based approaches might prove viable and more robust, and the problem might be solved by tackling more general questions (e.g., the support of annotations, considering a translation of an original text as a special annotation of the text). The goal of this proposal is to raise awareness about parallel texts, not to craft a production-ready solution.</p>
+     </section>
+ </body>
+</html>

@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>danstools</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <link href="stylesheet.css" rel="stylesheet" type="text/css"/>
+<link href="page_styles.css" rel="stylesheet" type="text/css"/>
+</head>
+  <body class="calibre">
+<p class="calibre1">コンピュータアーキテクチャⅡ</p>
+<p class="calibre1">「パターソン＆ヘネシー コンピュータの構成と設計」第4.5～4.6節</p>
+<p class="whitespace"> </p>
+<p class="calibre1">命令パイプライン処理１</p>
+<p class="calibre1">（原理１）</p>
+<p class="calibre1">コンピュータアーキテクチャⅡ</p>
+<p class="whitespace"> </p>
+<p class="calibre1">1</p>
+<p class="whitespace"> </p>
+<p class="calibre1">命令パイプライン処理：概念</p>
+<p class="calibre1">l  命令の実行過程を複数のステージに分割。たとえば，以下の５</p>
+<p class="calibre1">ステージに分割</p>
+<p class="calibre1">1.  命令フェッチ（IF）</p>
+<p class="calibre1">2.  命令デコード，レジスタ読出し（ID）</p>
+<p class="calibre1">3.  命令実行（EX）</p>
+<p class="calibre1">4.  メモリ・アクセス（MEM）</p>
+<p class="calibre1">5.  レジスタ書込み（WB）</p>
+<p class="calibre1">l  異なる命令の異なるステージを同時に処理することで，命令実</p>
+<p class="calibre1">行のスループットを向上</p>
+<p class="whitespace"> </p>
+<p class="calibre1">コンピュータアーキテクチャⅡ</p>
+<p class="whitespace"> </p>
+<p class="calibre1">2</p>
+<p class="whitespace"> </p>
+<p class="calibre1">命令実行のスループット？</p>
+<p class="calibre1">l  プログラム実行時間</p>
+<p class="calibre1">  ＝時間／プログラム</p>
+<p class="whitespace"> </p>
+<p class="calibre1">実行命令数 クロック・サイクル数</p>
+<p class="calibre1">時間</p>
+<p class="scenebreak">＝</p>
+<p class="scenebreak">×</p>
+<p class="scenebreak">×</p>
+<p class="calibre1">  プログラム</p>
+<p class="calibre1">命令</p>
+<p class="calibre1">クロックサイクル</p>
+<p class="calibre1">  ＝実行命令数×CPI×クロックサイクル時間</p>
+<p class="calibre1">l  CPI（clock-cycles per instruction）：１命令当りの平均所要クロックサイ</p>
+<p class="calibre1">クル数</p>
+<p class="whitespace"> </p>
+<p class="calibre1">l  命令実行スループット</p>
+<p class="calibre1">l  IPC（instructions per clock-cycle）：１クロックサイクル当りに実行可能</p>
+<p class="calibre1">な命令数</p>
+<p class="calibre1">l  CPIの逆数</p>
+<p class="whitespace"> </p>
+<p class="calibre1">コンピュータアーキテクチャⅡ</p>
+<p class="whitespace"> </p>
+<p class="calibre1">3</p>
+<p class="whitespace"> </p>
+<p class="calibre1">命令パイプライン処理による</p>
+<p class="calibre1">命令実行スループット向上</p>
+<p class="calibre1">l 非命令パイプライン処理（シングルサイクルデータパス）</p>
+<p class="calibre1">l スループット：1命令/8ns</p>
+<p class="calibre1">Program</p>
+<p class="calibre1">2</p>
+<p class="calibre1">execution</p>
+<p class="calibre1">Time</p>
+<p class="calibre1">order</p>
+<p class="calibre1">(in instructions)</p>
+<p class="calibre1">lw $1, 100($0) Insfterutcchtion Reg</p>
+<p class="whitespace"> </p>
+<p class="calibre1">4</p>
+<p class="whitespace"> </p>
+<p class="calibre1">6</p>
+<p class="whitespace"> </p>
+<p class="calibre1">10</p>
+<p class="whitespace"> </p>
+<p class="calibre1">12</p>
+<p class="whitespace"> </p>
+<p class="calibre1">14</p>
+<p class="whitespace"> </p>
+<p class="calibre1">16</p>
+<p class="whitespace"> </p>
+<p class="calibre1">18</p>
+<p class="whitespace"> </p>
+<p class="calibre1">Data</p>
+<p class="calibre1">access Reg</p>
+<p class="whitespace"> </p>
+<p class="calibre1">ALU</p>
+<p class="whitespace"> </p>
+<p class="calibre1">lw $2, 200($0)</p>
+<p class="whitespace"> </p>
+<p class="calibre1">8</p>
+<p class="whitespace"> </p>
+<p class="calibre1">Instruction Reg</p>
+<p class="calibre1">fetch</p>
+
+
+</body></html>
