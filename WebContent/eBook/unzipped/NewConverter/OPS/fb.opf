@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="EPB-UUID" version="2.0">
+<metadata xmlns:opf="http://www.idpf.org/2007/opf" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<dc:title>slide</dc:title>
+<dc:creator></dc:creator>
+<dc:subject></dc:subject>
+<dc:description></dc:description>
+<dc:contributor></dc:contributor>
+<dc:date>2012-12-23</dc:date>
+<dc:type></dc:type>
+<dc:format></dc:format>
+<dc:source></dc:source>
+<dc:relation></dc:relation>
+<dc:coverage></dc:coverage>
+<dc:rights></dc:rights>
+<dc:identifier id="EPB-UUID">urn:uuid:123456</dc:identifier>
+<dc:language>en-gb</dc:language>
+</metadata>
+<manifest>
+<!-- Content Documents -->
+<item id="page-001" href="page-001.html" media-type="application/xhtml+xml"/>
+<item id="page-002" href="page-002.html" media-type="application/xhtml+xml"/>
+<item id="page-003" href="page-003.html" media-type="application/xhtml+xml"/>
+<item id="page-004" href="page-004.html" media-type="application/xhtml+xml"/>
+<item id="page-005" href="page-005.html" media-type="application/xhtml+xml"/>
+<item id="page-006" href="page-006.html" media-type="application/xhtml+xml"/>
+<item id="img-001" href="images/bg00400001.jpg" media-type="image/jpeg"/>
+<item id="img-002" href="images/bg00400002.jpg" media-type="image/jpeg"/>
+<item id="img-003" href="images/bg00400003.jpg" media-type="image/jpeg"/>
+<item id="img-004" href="images/bg00500001.jpg" media-type="image/jpeg"/>
+<item id="backImg" href="images/backImg.jpg" media-type="image/jpeg"/>
+<item id="font" href="Fonts/EmbedFont.ttf" media-type="application/fonts"/>
+<item id="style" href="css/style.css" media-type="text/css"/>
+<!-- NCX -->
+<item id="ncx" href="fb.ncx" media-type="application/x-dtbncx+xml"/>
+</manifest>
+<spine toc="ncx">
+<itemref idref="page-001" linear="yes"/>
+<itemref idref="page-002" linear="yes"/>
+<itemref idref="page-003" linear="yes"/>
+<itemref idref="page-004" linear="yes"/>
+<itemref idref="page-005" linear="yes"/>
+<itemref idref="page-006" linear="yes"/>
+</spine>
+</package>

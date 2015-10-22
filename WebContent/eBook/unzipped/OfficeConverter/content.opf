@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
+  <metadata xmlns:opf="http://www.idpf.org/2007/opf" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:calibre="http://calibre.kovidgoyal.net/2009/metadata">
+    <dc:identifier id="uuid_id" opf:scheme="uuid">9f62f5c8-cc72-40c2-aef7-6cfec3bc90ec</dc:identifier>
+    <meta name="calibre:timestamp" content="2015-08-29T08:46:06.315888+00:00"/>
+    <dc:title>スライド 1</dc:title>
+    <dc:language>en</dc:language>
+    <dc:contributor opf:role="bkp">calibre (2.28.0) [http://calibre-ebook.com]</dc:contributor>
+    <dc:creator opf:file-as="Unknown" opf:role="aut">Masayuki TAKEDA</dc:creator>
+  </metadata>
+  <manifest>
+    <item href="index-1_1.png" id="id25" media-type="image/png"/>
+    <item href="index-2_1.png" id="id32" media-type="image/png"/>
+    <item href="index-2_2.jpg" id="id22" media-type="image/jpeg"/>
+    <item href="index-2_3.jpg" id="id5" media-type="image/jpeg"/>
+    <item href="index-3_1.png" id="id18" media-type="image/png"/>
+    <item href="index-3_2.png" id="id27" media-type="image/png"/>
+    <item href="index-3_3.jpg" id="id31" media-type="image/jpeg"/>
+    <item href="index-4_1.png" id="id7" media-type="image/png"/>
+    <item href="index-4_2.jpg" id="id17" media-type="image/jpeg"/>
+    <item href="index-5_1.png" id="id23" media-type="image/png"/>
+    <item href="index-5_2.png" id="id8" media-type="image/png"/>
+    <item href="index-5_3.png" id="id15" media-type="image/png"/>
+    <item href="index-5_4.png" id="id3" media-type="image/png"/>
+    <item href="index-5_5.png" id="id9" media-type="image/png"/>
+    <item href="index-5_6.png" id="id29" media-type="image/png"/>
+    <item href="index-5_7.png" id="id2" media-type="image/png"/>
+    <item href="index-5_8.jpg" id="id28" media-type="image/jpeg"/>
+    <item href="index-6_1.png" id="id10" media-type="image/png"/>
+    <item href="index-6_2.jpg" id="id4" media-type="image/jpeg"/>
+    <item href="index-7_1.png" id="id6" media-type="image/png"/>
+    <item href="index-7_2.png" id="id20" media-type="image/png"/>
+    <item href="index-8_1.png" id="id11" media-type="image/png"/>
+    <item href="index-8_2.png" id="id26" media-type="image/png"/>
+    <item href="index-8_3.jpg" id="id16" media-type="image/jpeg"/>
+    <item href="index-8_4.png" id="id30" media-type="image/png"/>
+    <item href="index-8_5.png" id="id24" media-type="image/png"/>
+    <item href="index-9_1.png" id="id12" media-type="image/png"/>
+    <item href="index-9_2.jpg" id="id13" media-type="image/jpeg"/>
+    <item href="index-9_3.png" id="id19" media-type="image/png"/>
+    <item href="index-9_4.png" id="id21" media-type="image/png"/>
+    <item href="index-9_5.png" id="id14" media-type="image/png"/>
+    <item href="index.html" id="id1" media-type="application/xhtml+xml"/>
+    <item href="page_styles.css" id="page_css" media-type="text/css"/>
+    <item href="stylesheet.css" id="css" media-type="text/css"/>
+    <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml"/>
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="id1"/>
+  </spine>
+  <guide/>
+</package>
