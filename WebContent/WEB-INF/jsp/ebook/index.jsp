@@ -91,7 +91,7 @@
 			<div id="wrapper">
 				<div id="area">
 					<h1>ePub Viewer</h1>
-					<form:form modelAttribute="eBookSearchForm" action="${ebookPath}/reading/bookselect"><!-- eBookSearchFormを呼ぶ(下記でkeyword要素を更新するため) -->
+					<form:form modelAttribute="eBookSearchForm" action="${ebookPath}/bookselect"><!-- eBookSearchFormを呼ぶ(下記でkeyword要素を更新するため) -->
 						<p align="center">
 							<form:input path="keyword" />
 							<input type="submit" value="Search" />

@@ -15,7 +15,7 @@
             <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
             <script src="<c:url value='/js/LLMap.js' />"></script>
         <script>
-                
+
                 var map;
                 $(function(){
                 	map = new LLMap("map", {
@@ -26,24 +26,24 @@
                 		}
                 	});
                 });
-                
-                
+
+
                 $(
        	            function(){
        	            		if(!$('#location_based_cb').is(':checked'))
        	                		$('#script_map').hide();
        	                	else
        	            			$('#script_map').show();
-       	            	}	
+       	            	}
        	         );
-                
+
             	$(document).on("change", "#location_based_cb", function(){
             		if($('#location_based_cb').is(':checked'))
             			$('#script_map').show();
                 	else
                 		$('#script_map').hide();
             	});
-            	
+
               	$(document).on("change", "#time_based_cb", function(){
             		if($('#time_based_cb').is(':checked'))
             			$('#script_time').show();
@@ -51,9 +51,9 @@
                 		$('#script_time').hide();
             	});
             </script>
-            
-            
-            
+
+
+
             <script type="text/javascript">
 	           function onQuery(){
 	        	   if($('#querylog').val() == "")
@@ -75,7 +75,7 @@
 	        	        			 	return false;
 	        	        			 }else
 		        	        			 temp = title;
-	        	        			 
+
 	        	        		 });
 	        	        	 	 <c:url value="/item/" var="itemUrl" />
         	        			 result = result+ "<a href='${itemUrl}"+value.itemId+"' target='_blank'>"+ temp+"</a>";
@@ -85,8 +85,8 @@
 	        	          }
 	        	      });
 	           }
-	           
-	           
+
+
 	           function onAddItemId(itemId){
 	        	   <c:url value="/task/${task.id}/additem.json" var="addItemUrl" />
         		   $.ajax({
@@ -98,7 +98,7 @@
         			   }
         		   });
 	           }
-	           
+
 	           function onRemoveItemId(itemId){
 	        	   <c:url value="/task/${task.id}/removeitem.json" var="removeItemUrl" />
         		   $.ajax({
@@ -110,9 +110,9 @@
         			   }
         		   });
 	           }
-	           
+
 	           $(refreshRelatedItem());
-	           
+
 	           function refreshRelatedItem(){
 	        	   <c:url value="/task/${task.id}/items.json" var="getItemUrl" />
 	        	   $.ajax({
@@ -133,13 +133,13 @@
 	        	        		 result = result+ "<a href='${itemUrl}"+value.itemId+"' target='_blank'>"+ temp+"</a>";
 	        	        		 result +="</input></li>";
 	        	        		 $("#related_item_area").append(result);
-        				   });        					   
+        				   });
         			   }
         		   });
 	           }
            </script>
-            
-            
+
+
         </c:param>
     </c:import>
     <body>
@@ -166,7 +166,7 @@
                                                     <th>
                                                         <label for="task_title">Title</label>
                                                     </th>
-                                                    <td> 
+                                                    <td>
                                                         	${task.title}
                                                         	<form:hidden path="taskId" value="${task.id}"/>
                                                     </td>
@@ -175,7 +175,7 @@
                                                     <th>
                                                         <label for="script">Script</label><strong>*</strong>
                                                     </th>
-                                                    <td> 
+                                                    <td>
 	                                                 <form:textarea path="script" cols="20" rows="15" cssStyle="width:98%" /><form:errors cssClass="error" path="script"/>
                                                     </td>
                                                 </tr>
@@ -189,7 +189,7 @@
                                                     <th>
                                                         <label for="place">Place</label>
                                                     </th>
-                                                    <td> 
+                                                    <td>
                                                     	<form:input path="place"/>&nbsp;&nbsp;&nbsp;<label>(e.g. School, Supermarket, Bank)</label>
                                                     </td>
                                                 </tr>
@@ -197,7 +197,7 @@
                                                     <th>
                                                         <label for="time_based">Time Based</label>
                                                     </th>
-                                                    <td> 
+                                                    <td>
                                                         <form:checkbox path="timeBased" id="time_based_cb" />
                                                     </td>
                                                 </tr>
@@ -205,7 +205,7 @@
                                                   <th>
                                                         <label for="Time_Period">Time Period</label>
                                                     </th>
-                                                    <td> 
+                                                    <td>
                                                   	<form:select path="starthour">
                                                                         <form:options items="${oneDay}"/>
                                                     </form:select>
@@ -224,7 +224,7 @@
                                                     <th>
                                                         <label for="location_based">Location Based</label>
                                                     </th>
-                                                    <td> 
+                                                    <td>
                                                         <form:checkbox path="locationBased" id="location_based_cb" />
                                                     </td>
                                                 </tr>
@@ -245,7 +245,7 @@
                                                     <li>
                                                         <input type="submit" class="next_submit" value="Next" />
                                                      </li>
-                                                     <li>   
+                                                     <li>
                                                         <input type="submit" class="publish_submit" value="Publish" />
                                                     </li>
                                                 </ul>
@@ -261,10 +261,10 @@
                           </div>
                           <div>
                           	<ul id="related_item_area"></ul>
-                          </div> 
+                          </div>
                           <br>
                    		  <div id="search_area">
-								<input name="querylog" id="querylog"/>  <input type="button" value="Search" onClick="onQuery()"/>                              	
+								<input name="querylog" id="querylog"/>  <input type="button" value="Search" onClick="onQuery()"/>
                            </div>
                            <br>
                            <div>

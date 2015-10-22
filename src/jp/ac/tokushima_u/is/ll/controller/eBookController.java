@@ -1,7 +1,5 @@
 package jp.ac.tokushima_u.is.ll.controller;
 
-
-
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
@@ -23,7 +21,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("/ebook") // ルート
 public class eBookController {
 
-	private static String ePubFilesPath = "C:/ebook/epub/"; //ePubファイルの入っているディレクトリのパス
+	private static String ePubFilesPath = "C:/ebook/epub/"; //ePubファイルの入っているディレクトリのパス(置き場が決まるまではここを変えたらviewer.jspのePubFilePathも編集が必要)
 
 	@Autowired
 	private UserService userService;
@@ -51,7 +49,7 @@ public class eBookController {
 		return "ebook/index"; // ebook/index.jspをレンダリング
 	}
 
-	@RequestMapping(value="/reading/bookselect") // ebook/reading/bookselectにアクセスすると呼ばれるメソッド
+	@RequestMapping(value="/bookselect") // ebook/bookselectにアクセスすると呼ばれるメソッド
 	public String bookSelect(eBookSearchForm form,  ModelMap model) {
 
 		List<BookModel> books = new ArrayList<>();
@@ -73,16 +71,16 @@ public class eBookController {
 		model.addAttribute("hittitlenum", id);
 		if(id != 0){
 			model.addAttribute("books", books);
-			return "ebook/reading/bookselect"; //一冊でも見つかった場合の遷移先
+			return "ebook/bookselect"; //一冊でも見つかった場合の遷移先
 		}else{
-			return "ebook/reading/bookselect"; //一冊も見つからない場合の遷移先
+			return "ebook/bookselect"; //一冊も見つからない場合の遷移先
 		}
 	}
 
-	@RequestMapping(value="/reading/viewer")
+	@RequestMapping(value="/viewer")
 	public String openViewer(eBookSearchForm form,  ModelMap model) {;
 		model.addAttribute("selected", form.getSelected());
-		return "ebook/reading/viewer";
+		return "ebook/viewer";
 	}
 
 	public static void getEpubFiles(eBookSearchForm form) {

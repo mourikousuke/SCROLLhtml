@@ -19,6 +19,7 @@
 <script src="${baseURL}/js/ebook/build/libs/zip.min.js"></script>
 <script src="${baseURL}/js/ebook/epubhelp.js"></script>
 <script src="${baseURL}/js/ebook/jquery-2.1.0.min.js"></script>
+
 <!-- Render -->
 <script src="${baseURL}/js/ebook/epub.min.js"></script>
 
@@ -39,7 +40,7 @@
 <!-- <script src="js/libs/screenfull.min.js"></script> -->
 
 <!-- sidebar -->
-<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+<script src="${baseURL}/js/ebook/simpler-sidebar/dist/jquery-ui.min.js"></script>
 <script src="${baseURL}/js/ebook/simpler-sidebar/dist/jquery.simple-sidebar.min.js"></script>
 
 <!-- CSS -->
@@ -149,6 +150,22 @@
 		window.onresize=function(){ //ウィンドウサイズ変化時
 			windowSizeChanged();
 		};
+
+
+		function onBookmarked(){
+			<c:url value="/ebook/ebooklog.json" var="ebooklogUrl" />
+			$.ajax({
+				type: "POST",
+				url: "${ebooklogUrl}",
+				data: {taskId:'${task.id}', queryvalue:$('#querylog').val()},
+				dataType: "json",
+				success: function(data){
+
+				}
+			});
+		}
+
+
 	});
 
 	Book.getMetadata().then(function(meta){
